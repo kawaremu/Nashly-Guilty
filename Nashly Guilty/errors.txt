@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/characters.rpy", line 12: expected statement.
+    ​image bg_beach = im.Scale("backgrounds/bg beach.jpg", 1920, 1080)
+                    ^
+
+Ren'Py Version: Ren'Py 7.5.3.22090809
+Thu Dec 29 23:09:17 2022
