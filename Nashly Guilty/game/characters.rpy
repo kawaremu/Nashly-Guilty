@@ -1,6 +1,7 @@
 # Personnages du jeu
-define e = Character('Eileen', color="#c8ffc8")
-
+define you = Character('[name_character]', color="#460a28")
+define maitre_avocat = Character('Lloyd Shapley', color="#3d933d")
+define client = Character('Inconnu', color="#213f5b")
 
 
 # Déclarez sous cette ligne les images, avec l'instruction 'image'
@@ -15,9 +16,5 @@ image bg_beach:
 
 image bg_office_door:
       zoom 2
-      "backgrounds/bg office door.jpeg"
+      "backgrounds/bg office door.jpg"
 
-
-
-
-# 

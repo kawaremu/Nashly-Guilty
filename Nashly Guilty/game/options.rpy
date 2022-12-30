@@ -125,7 +125,7 @@ define config.window_hide_transition = Dissolve(.2)
 ## Contrôle la vitesse du texte. La valeur par défaut, 0, est infinie. Toute
 ## autre valeur est le nombre de caractères tapés par seconde.
 
-default preferences.text_cps = 0
+default preferences.text_cps = 35 
 
 
 ## Le délai d’avancée automatique. Des nombres importants entraînent une longue
@@ -157,7 +157,7 @@ define config.save_directory = "NashlyGuilty-1671919569"
 ##
 ## L'icone affichée dans la barre des tâches ou sur le dock.
 
-define config.window_icon = "gui/window_icon.png"
+define config.window_icon = "gui/nashly_guilty_icon.png"
 
 
 ## Configuration de la compilation #############################################

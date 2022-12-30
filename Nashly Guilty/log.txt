@@ -1,4 +1,4 @@
-Thu Dec 29 23:17:34 2022
+Fri Dec 30 00:47:29 2022
 Windows-10-10.0.19041
 Ren'Py 7.5.3.22090809
  
@@ -7,7 +7,7 @@ Bootstrap to the start of init.init took 0.05s
 Early init took 0.00s
 Loader init took 0.02s
 Loading error handling took 0.01s
-Loading script took 0.12s
+Loading script took 0.13s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Faled to initialize steam: WindowsError(126, 'The specified module could not be found')
@@ -32,7 +32,7 @@ Analyze screens took 0.01s
 Save screen analysis took 0.02s
 Prepare screens took 0.03s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.09s
@@ -45,5 +45,79 @@ Vendor: 'NVIDIA Corporation'
 Renderer: 'NVIDIA GeForce RTX 2060/PCIe/SSE2'
 Version: '4.6.0 NVIDIA 516.94'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Screen sizes: virtual=(1920, 1080) physical=(1390, 782) drawable=(1390, 782)
 Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/prologue.rpy", line 25, in script
+    $ wait_phone_ringing()
+  File "renpy/ast.py", line 1131, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "renpy/python.py", line 1061, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/prologue.rpy", line 25, in <module>
+    $ wait_phone_ringing()
+  File "game/prologue.rpy", line 8, in wait_phone_ringing
+    renpy.pause((10-renpy.music.get_pos('sound')),hard=True)
+TypeError: unsupported operand type(s) for -: 'int' and 'NoneType'
+
+While running game code:
+  File "game/prologue.rpy", line 25, in script
+    $ wait_phone_ringing()
+  File "game/prologue.rpy", line 25, in <module>
+    $ wait_phone_ringing()
+  File "game/prologue.rpy", line 8, in wait_phone_ringing
+    renpy.pause((10-renpy.music.get_pos('sound')),hard=True)
+TypeError: unsupported operand type(s) for -: 'int' and 'NoneType'
+Resetting cache.
+Bootstrap to the start of init.init took 53.11s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.11s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: WindowsError(126, 'The specified module could not be found')
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\kawaremu\\AppData\\Roaming/RenPy/backups\\Nashly Guilty':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.18s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce RTX 2060/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 516.94'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1390, 782) drawable=(1390, 782)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
