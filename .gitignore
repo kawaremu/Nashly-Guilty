@@ -1,3 +1,4 @@
 *.rpyc
-*.txt
+Nashly Guilty/*.txt
 Nashly Guilty/game/saves/
+.vscode/

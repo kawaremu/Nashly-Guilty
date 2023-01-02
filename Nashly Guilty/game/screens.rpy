@@ -297,17 +297,32 @@ screen navigation():
 
         if main_menu:
 
-            textbutton _("Nouvelle partie") action Start()
+            textbutton _("Nouvelle Partie"):
+                hover_sound "audio/click.mp3"
+                activate_sound "audio/click.mp3"
+                action Start()
 
         else:
 
-            textbutton _("Historique") action ShowMenu("history")
+            textbutton _("Historique"):
+                hover_sound "audio/click.mp3"
+                activate_sound "audio/click.mp3"
+                action ShowMenu("history")
 
-            textbutton _("Sauvegarde") action ShowMenu("save")
+            textbutton _("Sauvegarde"):
+                hover_sound "audio/click.mp3"
+                activate_sound "audio/click.mp3"
+                action ShowMenu("save")
 
-        textbutton _("Charger") action ShowMenu("load")
+        textbutton _("Charger"):
+                hover_sound "audio/click.mp3"
+                activate_sound "audio/click.mp3"
+                action ShowMenu("load")
 
-        textbutton _("Préférences") action ShowMenu("preferences")
+        textbutton _("Préférences"):
+                hover_sound "audio/click.mp3"
+                activate_sound "audio/click.mp3"
+                action ShowMenu("preferences")
 
         if _in_replay:
 
@@ -317,19 +332,25 @@ screen navigation():
 
             textbutton _("Menu principal") action MainMenu()
 
-        textbutton _("À propos") action ShowMenu("about")
+        # textbutton _("À propos") action ShowMenu("about")
 
         if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
             ## L'aide n’est ni nécessaire ni pertinente sur les appareils
             ## mobiles.
-            textbutton _("Aide") action ShowMenu("help")
+            textbutton _("Aide"):
+                hover_sound "audio/click.mp3"
+                activate_sound "audio/click.mp3"
+                action ShowMenu("help")
 
         if renpy.variant("pc"):
 
             ## Le bouton pour quitter est banni sur iOS et inutile sur Android
             ## et sur le Web.
-            textbutton _("Quitter") action Quit(confirm=not main_menu)
+            textbutton _("Quitter"):
+                hover_sound "audio/click.mp3"
+                activate_sound "audio/click.mp3"
+                action Quit(confirm=not main_menu)
 
 
 style navigation_button is gui_button
@@ -356,9 +377,9 @@ screen main_menu():
 
     add gui.main_menu_background
 
-    ## Cette frame vide obscurcit le menu principal.
-    frame:
-        style "main_menu_frame"
+    # ## Cette frame vide obscurcit le menu principal.
+    # frame:
+    #     style "main_menu_frame"
 
     ## The use statement includes another screen inside this one. The actual
     ## contents of the main menu are in the navigation screen.

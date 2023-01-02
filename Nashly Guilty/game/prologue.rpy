@@ -7,9 +7,34 @@ init python:
         if renpy.music.is_playing('sound'):
             renpy.pause((5-renpy.music.get_pos('sound')),hard=True)
 
+# Presenting
+label splashscreen:
+    scene black with dissolve
+    with Pause(1)
+
+    show text "MIV Interactive présente..." with dissolve
+    with Pause(1)
+
+    show text "MIV Interactive présente..." with dissolve
+    with Pause(1)
+
+    hide text with dissolve
+    with Pause(1)
+
+    show text "Nashement Coupable" with dissolve
+    with Pause(1)
+
+    show text "Toute ressemblance avec une personne existant ou ayant existé n'est qu'une pure coïncidence." with dissolve
+    with Pause(2)
+
+    hide text with dissolve
+    with Pause(1)
+    return
+
+
 # Le jeu commence ici
 label start:
-    default name_character = "default"
+    default name_character = "Vous"
 
     play music "audio/office ambience.mp3" volume 0.3 loop
     #Get a black screen while ambient sound is playing 
@@ -28,10 +53,10 @@ label start:
 
     "Bonjour. Cabinet Nash d'Avocats, j'écoute ?"
     client "Bonjour. Je suis bien avec Mr Lloyd Shapley ?"
-    "Oui et non. Je suis son assistante."
+    you "Oui et non. Je suis son assistante."
 
-    if name_character == "default":
-        $ name_character = renpy.input("Je suis ",exclude="0123456789",length=32)
+    if name_character == "Vous":
+        $ name_character = renpy.input("Je suis (Veuillez insérer votre nom)",exclude="0123456789",length=32)
         $ name_character = name_character.strip()
     you "Je suis [name_character]. Je viens tout juste de reprendre le travail."
 

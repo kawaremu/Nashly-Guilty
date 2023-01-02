@@ -21,7 +21,7 @@ define config.name = _("Nashly Guilty")
 ## Détermine si le titre renseigné plus haut est affiché sur l'écran du menu
 ## principal Configurez-le à False (Faux) pour cacher le titre.
 
-define gui.show_name = True
+define gui.show_name = False
 
 
 ## La version du jeu.
@@ -65,7 +65,7 @@ define config.has_voice = True
 ## diffusé quand le joueur sera sur le menu principal. Ce son se poursuivra dans
 ## le jeu, jusqu’à ce qu'il soit stoppé ou qu’un autre fichier soit joué.
 
-# define config.main_menu_music = "main-menu-theme.ogg"
+define config.main_menu_music = "audio/main_menu_theme.mp3"
 
 
 ## Transitions #################################################################

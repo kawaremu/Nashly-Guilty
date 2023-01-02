@@ -24,18 +24,18 @@ init python:
 
 ## Une couleur utilisée dans l’interface pour mettre l’accent sur un texte
 ## (surbrillance).
-define gui.accent_color = u'#00cc99'
+define gui.accent_color = u'#af5622'
 
 ## La couleur utilisée pour le texte d’un bouton quand il n’a jamais été
 ## sélectionné ou survolé.
-define gui.idle_color = u'#888888'
+define gui.idle_color = u'#752323'
 
 ## La petite couleur est utilisé pour les textes courts qui nécessitent d’être
 ## assombris ou éclairés pour obtenir le même effet.
 define gui.idle_small_color = u'#aaaaaa'
 
 ## Cette couleur est utilisée pour les boutons et les barres qui sont survolées.
-define gui.hover_color = u'#66e0c1'
+define gui.hover_color = u'#9e4c2c'
 
 ## Cette couleur est utilisé pour le texte d’un bouton sélectionné, mais qui n’a
 ## pas le focus. Un bouton est sélectionné s’il est sur l’écran actuel ou si
@@ -60,13 +60,13 @@ define gui.interface_text_color = u'#ffffff'
 ## Polices et tailles de police ################################################
 
 ## Les polices utilisées pour le texte du jeu.
-define gui.text_font = "DejaVuSans.ttf"
+define gui.text_font = "fonts/Roboto-Regular.ttf"
 
 ## Les polices utilisées pour le nom des personnages.
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "fonts/Roboto-Regular.ttf"
 
 ## Les polices utilisées pour les textes « hors du jeu ».
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = "fonts/JMH Typewriter.ttf"
 
 ## La taille normale pour les dialogues.
 define gui.text_size = 33
@@ -75,24 +75,24 @@ define gui.text_size = 33
 define gui.name_text_size = 45
 
 ## La taille du texte dans l’interface de jeu.
-define gui.interface_text_size = 33
+define gui.interface_text_size = 35
 
 ## La taille des libellés dans l’interface de jeu.
-define gui.label_text_size = 36
+define gui.label_text_size = 60
 
 ## La taille du texte dans la zone de notification.
 define gui.notify_text_size = 24
 
 ## La taille du titre du jeu.
-define gui.title_text_size = 75
+define gui.title_text_size = 70
 
 
 ## Menu du jeu et menu principal ###############################################
 
 ## Les images utilisées pour le menu principal et le menu du jeu.
-define gui.main_menu_background = "gui/main_menu.png"
+# define gui.main_menu_background = "gui/main_menu.png"
 define gui.game_menu_background = "gui/game_menu.png"
-
+define gui.main_menu_background = Movie(play="gui/main_menu.ogv",loop=True,size=(1920,1080))
 
 ## Dialogue ####################################################################
 ##
