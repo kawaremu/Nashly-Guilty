@@ -39,7 +39,8 @@ label start:
     play music "audio/office ambience.mp3" volume 0.3 loop
     #Get a black screen while ambient sound is playing 
 
-    show text "{i}Prologue : L’autre n’est pas votre problème " with Pause(3)
+    show text "{i}Prologue : L’autre n’est pas votre problème" with Pause(3)
+    
 
     scene black with dissolve
     pause 3.0
