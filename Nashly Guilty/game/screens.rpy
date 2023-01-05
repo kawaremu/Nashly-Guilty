@@ -298,30 +298,30 @@ screen navigation():
         if main_menu:
 
             textbutton _("Nouvelle Partie"):
-                hover_sound "audio/click.mp3"
-                activate_sound "audio/click.mp3"
+                hover_sound "audio/B3.ogg"
+                activate_sound "audio/B3.ogg"
                 action Start()
 
         else:
 
             textbutton _("Historique"):
-                hover_sound "audio/click.mp3"
-                activate_sound "audio/click.mp3"
+                hover_sound "audio/B3.ogg"
+                activate_sound "audio/B3.ogg"
                 action ShowMenu("history")
 
             textbutton _("Sauvegarde"):
-                hover_sound "audio/click.mp3"
-                activate_sound "audio/click.mp3"
+                hover_sound "audio/B3.ogg"
+                activate_sound "audio/B3.ogg"
                 action ShowMenu("save")
 
         textbutton _("Charger"):
-                hover_sound "audio/click.mp3"
-                activate_sound "audio/click.mp3"
+                hover_sound "audio/B3.ogg"
+                activate_sound "audio/B3.ogg"
                 action ShowMenu("load")
 
         textbutton _("Préférences"):
-                hover_sound "audio/click.mp3"
-                activate_sound "audio/click.mp3"
+                hover_sound "audio/B3.ogg"
+                activate_sound "audio/B3.ogg"
                 action ShowMenu("preferences")
 
         if _in_replay:
@@ -339,8 +339,8 @@ screen navigation():
             ## L'aide n’est ni nécessaire ni pertinente sur les appareils
             ## mobiles.
             textbutton _("Aide"):
-                hover_sound "audio/click.mp3"
-                activate_sound "audio/click.mp3"
+                hover_sound "audio/B3.ogg"
+                activate_sound "audio/B3.ogg"
                 action ShowMenu("help")
 
         if renpy.variant("pc"):
@@ -348,8 +348,8 @@ screen navigation():
             ## Le bouton pour quitter est banni sur iOS et inutile sur Android
             ## et sur le Web.
             textbutton _("Quitter"):
-                hover_sound "audio/click.mp3"
-                activate_sound "audio/click.mp3"
+                hover_sound "audio/B3.ogg"
+                activate_sound "audio/B3.ogg"
                 action Quit(confirm=not main_menu)
 
 
@@ -492,8 +492,9 @@ screen game_menu(title, scroll=None, yinitial=0.0):
     use navigation
 
     textbutton _("Retour"):
+        hover_sound "audio/B3.ogg"
+        activate_sound "audio/B3.ogg"
         style "return_button"
-
         action Return()
 
     label title

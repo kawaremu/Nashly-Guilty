@@ -60,7 +60,7 @@ define gui.interface_text_color = u'#ffffff'
 ## Polices et tailles de police ################################################
 
 ## Les polices utilisées pour le texte du jeu.
-define gui.text_font = "fonts/Roboto-Regular.ttf"
+define gui.text_font = "fonts/Louis George Cafe.ttf"
 
 ## Les polices utilisées pour le nom des personnages.
 define gui.name_text_font = "fonts/Roboto-Regular.ttf"
