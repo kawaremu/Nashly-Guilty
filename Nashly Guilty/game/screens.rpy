@@ -318,6 +318,7 @@ screen navigation():
                 hover_sound "audio/B3.ogg"
                 activate_sound "audio/B3.ogg"
                 action ShowMenu("load")
+        
 
         textbutton _("Préférences"):
                 hover_sound "audio/B3.ogg"

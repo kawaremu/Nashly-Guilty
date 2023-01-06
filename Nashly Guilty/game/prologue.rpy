@@ -166,7 +166,7 @@ label start:
     y "Ce n'est pas une raison!"
     l @ angry "Tais-toi! Donne moi la suite. Je sais que tu la caches dans les tiroirs.." with dissolve
     y "Non, c'est tout ce que j'ai. Tu m'as tout pris."
-    l @ glad "Alors, on va à la poste retirer de l'argent, n'est-ce pas ?"
+    l @ glad "Alors, on va à la banque la plus proche retirer de l'argent, n'est-ce pas ?"
     y "Comment ça?" with vpunch
     l @ happy "Oui, tout de suite. On va à la banque la plus proche, retirer de l'argent." with dissolve
     y "Non, je ne peux pas je travaille." 
