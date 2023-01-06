@@ -15,11 +15,6 @@ label splashscreen:
     show text "MIV Interactive présente..." with dissolve
     with Pause(1)
 
-    show text "MIV Interactive présente..." with dissolve
-    with Pause(1)
-
-    hide text with dissolve
-    with Pause(1)
 
     show text "Nashement Coupable" with dissolve
     with Pause(1)
