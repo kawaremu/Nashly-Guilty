@@ -13,17 +13,16 @@ label splashscreen:
     with Pause(1)
 
     show text "MIV Interactive présente..." with dissolve
-    with Pause(1)
-
-
-    show text "Nashement Coupable" with dissolve
-    with Pause(1)
-
-    show text "Toute ressemblance avec une personne existant ou ayant existé n'est qu'une pure coïncidence." with dissolve
     with Pause(2)
 
+    show text "Nashement Coupable" with dissolve
+    with Pause(2)
+
+    show text "Toute ressemblance avec une personne existant ou ayant existé n'est qu'une pure coïncidence." with dissolve
+    with Pause(3)
+
     hide text with dissolve
-    with Pause(1)
+    with Pause(3)
     return
 
 
@@ -34,7 +33,11 @@ label start:
     play music "audio/office ambience.mp3" volume 0.3 loop
     #Get a black screen while ambient sound is playing 
 
-    show text "{i}Prologue : L’autre n’est pas votre problème" with Pause(3)
+    scene black with dissolve 
+    with Pause(3)
+
+    show text "{i}Prologue : L’autre n’est pas votre problème" with dissolve
+    with Pause(3)
     
 
     scene black with dissolve
