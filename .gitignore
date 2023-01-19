@@ -31,7 +31,7 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
-.vscode/
+../.vscode/
 
 # Translations
 *.mo
@@ -62,3 +62,4 @@ log.txt
 errors.txt
 traceback.txt
 files.txt
+.vscode/
