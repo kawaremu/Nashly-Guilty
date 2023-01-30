@@ -8,8 +8,7 @@ Vous êtes amoureuse de l’homme parfait à vos yeux. Vous le voyez souvent. Vo
 1. **Les personnages** 
     1. Personnage principal (vous, une avocate)
     2. Votre meilleure amie (policère) qui vous fait prendre des décisions
-    3. Vos parents qui ne pas doutent de vous
-    4. Votre amoureux (ennemi, joueur 2)
+    3. Votre amoureux (ennemi, joueur 2)
 <br></br>
 
 ## ⚙ Besoins du jeu
