@@ -15,13 +15,14 @@ Vous êtes amoureuse de l’homme parfait à vos yeux. Vous le voyez souvent. Vo
 | Besoin                                                                   	          | Importance    	| Completé 	 |
 |-------------------------------------------------------------------------------	  |---------------	|----------	 |
 | Finish prologue                                         	                          | Essential     	| ✅        	|
-| Finir chapitre 1                                                	                  | Essential     	| ✅         	|
-| Ajouter des choix au chapitre 1  	                                                  | Essential     	| ✅         	|
-|Arranger le menu principal  	                                                      | Non-Essential   | ✅         	|
+| Finir chapitre 1                                                	                  | Essential     	| ✅         |
+| Ajouter des choix au chapitre 1  	                                                  | Essential     	| ✅         |
+|Arranger le menu principal  	                                                      | Non-Essential   | ✅         |
+|Trouver une autre police d'écriture                   	                              | Non-Essential   | ✅         |
+|Changer les sprites de Nash              	                                          | Essential       | ✅         |
+|Finir épilogue avec 4 fins différentes             	                              | Essential       | ❌        	|
+|Ajouter "side" image pour chaque sprite             	                              | Essential       | ❌         |
 |Changer le layout de la boîte de dialogue             	                              | Essential       | ❌        	|
-|Trouver une autre police d'écriture                   	                              | Non-Essential   | ✅         	|
-|Changer les sprites de Nash              	                                          | Essential       | ✅         	|
-|Ajouter "side" image pour chaque sprite             	                             | Essential       | ❌        	|
 
 
 ## 🎞️ Copyrights et ressources originales 
