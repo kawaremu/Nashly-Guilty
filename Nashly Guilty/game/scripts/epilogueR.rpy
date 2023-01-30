@@ -26,8 +26,7 @@ label ReportToJustice:
   hide text with dissolve
 
   centered "D'après Sabrina qui avait assisté à son témoignage, il n'avait pas nié les violences perpertuées.{p=4.0} \n\n
-  Cela vous rappelle à quel point vous avez été douce et naive à son sujet.{p=4.0} \n\n
-  Nash est convoqué au commissariat après avoir été sorti de force de sa maison avec l'aide de Sabrina."
+  Cela vous rappelle à quel point vous avez été douce et naive à son sujet.{p=4.0} \n\n"
   hide text with dissolve
 
   centered "Mais ce n'est pas grave...Vous vous apprêter à avoir un tournant dans votre vie....{p=4.0} \n\n
@@ -89,7 +88,7 @@ label ReportToJustice:
   Après une procédure judiciaire approfondie, l'accusé a été déclaré coupable par le jury en raison de la preuve solide présentée contre lui..{p=4.0} \n\n
   Les avocats ont fait un travail remarquable dans la gestion de l'affaire et ont aidé à faire respecter la justice."
   hide text with dissolve
-
+  # $ find_nash_equilibrium(matrix)
   centered "{font=fonts/JMH Typewriter.ttf}{size=+50}{color=#d1492e}Equilibre de Nash retrouvé! (+20,-10){/color}{/size}{/font}
   {vspace=20}Votre espérance de vie est rallongée de 20 ans et celle de Nash réduite de 10 ans qu'il passe en prison.\n\n"
   hide text with dissolve
@@ -127,6 +126,7 @@ label EternalSuffering:
   Elle se demande souvent ce qui aurait pu être si elle avait pris une autre décision."
   hide text with dissolve
   scene black with dissolve
+  # $ find_nash_equilibrium(matrix)
   centered "{font=fonts/JMH Typewriter.ttf}{size=+50}{color=#d1492e}Vous pensiez vraiment avoir trouvé l'équilibre de Nash ? 
   {/color}{/size}{/font} {vspace=20}Votre espérance de vie est réduite de 20 ans,Nash échappe à la Justice et vit 10 ans de plus que vous.\n" 
   with Pause(10.0)

@@ -35,4 +35,4 @@ Vous êtes amoureuse de l’homme parfait à vos yeux. Vous le voyez souvent. Vo
 4. Eternal Suffering Theme : Falling In • Michael Vignola 
 5. Court Theme : Court Begins • from Phoenix Wright: Ace Attorney
 6. Compromise Theme : Restlessness • Anna Yarbrough
-7. Falatity Argument Theme : Shadows in the Dark • Anthony Vega
+7. Falatity Argument Theme : Isolation 

@@ -55,7 +55,7 @@ label Chapter1Start:
   show friend sad with dissolve
   s "[name_character]...{p}Tu ne mérites pas ce traitement...{p=1.0}Laisse moi t'aider..." with dissolve
   y "... Mais comment ?"
-  s @ smiling "Je suis contente que tu ne te sois pas laissée abattre!" with dissolve
+  s @ smiling "Je suis contente que tu acceptes mon aide!" with dissolve
   y "Je ne sais pas exactement quoi faire, mais une chose est sûre; cette relation me fait souffrir."
   s @ disappointed "Essayons d'être des joueurs rationnels... Nash est comme ton adversaire." with dissolve
   menu:
