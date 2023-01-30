@@ -192,7 +192,6 @@ label ConversationLover:
       jump CompromiseTogether
     "{size=+20}Confronter Nash avec rage{/size} {vspace=20}{size=-10}{color=#d1492e}{i}(espérance de vie -20){/i}{/color}{/size}":
       stop music fadeout 1.0
-      jump epilogueC
-
+      jump ArgumentAndJustice
   return
   

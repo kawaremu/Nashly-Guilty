@@ -119,7 +119,7 @@ image bg lover room = im.Scale("backgrounds/bg boyfriend room.jpg",1920,1080)
 image bg beach = im.Scale("backgrounds/bg beach.jpg",1920,1080)
 image bg living room = im.Scale("backgrounds/bg living room.png",1920,1080)
 
-
+image halfblack = Solid("#000000cb") #hope this is half transparent (haven't tested)
 
 image bg office door:
       zoom 2

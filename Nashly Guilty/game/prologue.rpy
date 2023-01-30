@@ -89,7 +89,7 @@ label start:
 
     play sound "<from 4 to 6>audio/door knock.mp3" volume 0.7
     a "[name_character] ? Tu es là ?"
-    $ wait()
+    $ wait(2)
     y "Oui, oui? Qu'est-ce qu'il y a ?"
     a "Il y a quelqu'un qui te cherche, il t'attend devant la porte."
     y "D'accord, j'arrive."
