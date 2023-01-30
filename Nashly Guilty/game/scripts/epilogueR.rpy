@@ -90,7 +90,8 @@ label ReportToJustice:
   Les avocats ont fait un travail remarquable dans la gestion de l'affaire et ont aidé à faire respecter la justice."
   hide text with dissolve
 
-  centered "{font=fonts/JMH Typewriter.ttf}{size=+50}{color=#d1492e}Equilibre de Nash retrouvé! (+20,-10){/color}{/size}{/font}\n"
+  centered "{font=fonts/JMH Typewriter.ttf}{size=+50}{color=#d1492e}Equilibre de Nash retrouvé! (+20,-10){/color}{/size}{/font}
+  {vspace=20}Votre espérance de vie est rallongée de 20 ans et celle de Nash réduite de 10 ans qu'il passe en prison.\n\n"
   hide text with dissolve
   return
 
@@ -113,9 +114,11 @@ label EternalSuffering:
   #Transition vers la scène finale de regret
   scene black with dissolve
   "{i}Après avoir pris cette décision, vous n'appelez pas votre meilleure amie.{/i}"
+  centered "Epilogue \n {p=4.0} Souffrance éternelle."
+  hide text with dissolve
+  $ renpy.pause(4, hard=True)
   scene bg living room
   with dissolve
-
   centered "Des années se sont écoulées et le temps a laissé son empreinte sur le visage de [name_character]. 
   Elle est seule dans sa chambre, se rappelant les jours où elle était amoureuse de l'homme parfait à ses yeux. {p=4.0} \n\n
   Elle avait tout donné pour lui, lui offrant tout ce qu'il désirait, faisant confiance aveuglement à un homme qui s'est révélé être toxique et manipulateur. {p=4.0} \n
