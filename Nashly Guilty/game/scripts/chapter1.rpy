@@ -60,11 +60,11 @@ label Chapter1Start:
   s @ disappointed "Essayons d'être des joueurs rationnels... Nash est comme ton adversaire." with dissolve
   menu:
     "C'est vrai... Nash ne m'a jamais aimé. Il n'est là que pour ses propres intérêts...":
-      pass
+      s @ happy "Oh, je n'aurais jamais pu pensé entendre ça de ta part!" with dissolve
     "Non... Je l'aime vraiment. Je ne pense pas pouvoir le laisser tomber.":
-      pass
+      s @ disappointed "C'est ton opinion,mais je n'ai jamais aimé cet homme..." with dissolve
   
-  s @ disappointed "C'est ton opinion, et quelle que soit ta décision, je serai ton bras droit." with dissolve
+
   s @ smiling "Tu peux compter sur mon aide en tout cas. Je suis policière, et je promets de t'assister dans toutes les procédures." with dissolve
 
   "{i}Sabrina me propose de l'aide. Je pense que ça sera un tournant dans ma vie.{/i}" with dissolve
@@ -143,7 +143,7 @@ label ConversationLover:
   show friend mad with dissolve
   s "[name_character]! Pourquoi tu es si têtue.."
   y "Sabrina, ce n'est pas grave. Je vais essayer de le raisonner..."
-  s @ disappointed "... J'espère que tu feras le bon choix après ça. Je n'ai jamais approuvé cet homme." with dissolve
+  s @ disappointed "... J'espère que tu feras le bon choix après ça. Je n'approuverai jamais cet homme." with dissolve
   y "Il est merveilleux, même avec ses défauts..."
   s @ clueless "Prends ta décision ce soir encore une fois et confirme moi par téléphone." with dissolve
   "{i}Sabrina et moi prenons nos gâteaux dans le plus grand des calmes.{/i}"
