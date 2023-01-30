@@ -20,7 +20,10 @@ Vous êtes amoureuse de l’homme parfait à vos yeux. Vous le voyez souvent. Vo
 |Arranger le menu principal  	                                                      | Non-Essential   | ✅         |
 |Trouver une autre police d'écriture                   	                              | Non-Essential   | ✅         |
 |Changer les sprites de Nash              	                                          | Essential       | ✅         |
-|Finir épilogue avec 4 fins différentes             	                              | Essential       | ❌        	|
+|Finir épilogue 1er fin                         	                                  | Essential       | ✅        	|
+|Finir épilogue 2e fin                                 	                              | Essential       | ✅        	|
+|Finir épilogue 3e fin                               	                              | Essential       | ❌        	|
+|Finir épilogue 4e fin                               	                              | Essential       | ❌        	|
 |Ajouter "side" image pour chaque sprite             	                              | Essential       | ❌         |
 |Changer le layout de la boîte de dialogue             	                              | Essential       | ❌        	|
 
@@ -29,4 +32,7 @@ Vous êtes amoureuse de l’homme parfait à vos yeux. Vous le voyez souvent. Vo
 1. Main Menu Theme : Approach • Jameson Nathan Jones
 2. House Theme : Felt •  Yehezkel Raz
 3. Report to Justice Theme : Yehezkel Raz • Prologue 
-4. Court Theme : Court Begins (Phoenix Wright: Ace Attorney) 2020 version - The Consouls
+4. Eternal Suffering Theme : Falling In • Michael Vignola 
+5. Court Theme : Court Begins • from Phoenix Wright: Ace Attorney
+6. Compromise Theme : Restlessness • Anna Yarbrough
+7. Falatity Argument Theme : Shadows in the Dark • Anthony Vega

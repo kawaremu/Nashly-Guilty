@@ -115,10 +115,11 @@ image bg atm = im.Scale("backgrounds/bg atm.png",1920,1080)
 image bg house = im.Scale("backgrounds/bg house.jpg",1920,1080)
 image bg character room = im.Scale("backgrounds/bg character room.jpg",1920,1080)
 image bg supreme court = im.Scale("backgrounds/bg supreme court.jpg",1920,1080)
+image bg lover room = im.Scale("backgrounds/bg boyfriend room.jpg",1920,1080)
+image bg beach = im.Scale("backgrounds/bg beach.jpg",1920,1080)
+image bg living room = im.Scale("backgrounds/bg living room.png",1920,1080)
 
-image bg_beach:
-      zoom 2
-      "backgrounds/bg beach.jpg"
+
 
 image bg office door:
       zoom 2

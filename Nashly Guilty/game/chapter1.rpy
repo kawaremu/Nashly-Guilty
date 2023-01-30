@@ -72,7 +72,7 @@ label Chapter1Start:
   show friend clueless with dissolve
   menu strategieR_C:
     "{i}Faîtes un choix. Cette stratégie vous sera soit bénéfique, soit destructrice.{/i}"
-    "{size=+20}Dénoncer à la police{/size}  {vspace=20}{size=-10}{color=#4287f5}{i}(espérance de vie +10){/i}{/color}{/size}":
+    "{size=+20}Dénoncer à la police{/size}{vspace=20}{size=-10}{color=#4287f5}{i}(espérance de vie +10){/i}{/color}{/size}":
       jump ReportPolice
     "{size=+20}Essayer de discuter avec Nash{/size} {vspace=20}{size=-10}{color=#d1492e}{i}(espérance de vie +5){/i}{/color}{/size}":
       jump ConversationLover
@@ -129,6 +129,7 @@ label ReportPolice:
   menu:
     "{i}Faîtes un choix. Cette stratégie vous sera soit bénéfique, soit destructrice.{/i}"
     "{size=+20}Dénoncer à la police pour de bon.{/size}  {vspace=20}{size=-10}{color=#4287f5}{i}(espérance de vie +10){/i}{/color}{/size}":
+      $ NashEquilibrium = True
       stop music fadeout 1.0
       jump ReportToJustice
     "{size=+20}Ne pas dénoncer à la police.{/size} {vspace=20}{size=-10}{color=#d1492e}{i}(espérance de vie -20){/i}{/color}{/size}":
@@ -138,9 +139,60 @@ label ReportPolice:
   return
 
 
-
-
 label ConversationLover:
   show friend mad with dissolve
   s "[name_character]! Pourquoi tu es si têtue.."
+  y "Sabrina, ce n'est pas grave. Je vais essayer de le raisonner..."
+  s @ disappointed "... J'espère que tu feras le bon choix après ça. Je n'ai jamais approuvé cet homme." with dissolve
+  y "Il est merveilleux, même avec ses défauts..."
+  s @ clueless "Prends ta décision ce soir encore une fois et confirme moi par téléphone." with dissolve
+  "{i}Sabrina et moi prenons nos gâteaux dans le plus grand des calmes.{/i}"
+  "{i}C'était le calme avant la tempête; une tempête qui allait semer le chaos dans l'équilibre de la vie que je menais.{/i}"
+  "{i}Un équilibre auprès de Nash...{/i}"
+  stop music fadeout 0.5
+
+  scene black with dissolve
+  #Get a black screen while ambient sound is playing 
+  show text "Le déjeuner continue entre les deux amies..." with Pause(3)
+  scene black with dissolve
+
+  "{i}Vous rentrez à la maison, la tête pleine de stratégies pour un meilleur avenir et une plus longue vie pleine de prospérité.{/i}"
+  scene bg house with dissolve
+  play music "audio/house_bgm.mp3" volume 0.3 loop
+  y "Maman ? Papa ?"
+  "{i}Aucune réponse...{/i}"
+  y "Ce n'est pas grave. Je vais monter et rejoindre ma chambre. Je pourrai mieux réflechir une fois là-bas."
+
+  scene bg character room with dissolve
+  y "Quelles semaines fatiguantes... Je suis crevée."
+
+  play sound "audio/door open.mp3" volume 0.7
+  "La porte de ma chambre s'ouvre et c'est une figure douce qui vient m'embrasser chaleureusement."
+  $wait(5)
+  m "[name_character]! Je te cherchais!"
+  y "Maman! Tu m'as manquée!"
+  "Je saute dans ses bras." with vpunch
+  m "Toi aussi ma belle... J'étais dans la cuisine. Comment te sens-tu ? "
+  y "Je suis fatiguée... très fatiguée, même."
+  m "Ta santé passe avant tout. Si tu as besoin d'aide, sache que nous serons toujours là pour toi, ton père et moi."
+  y "Merci maman... "
+  m "Maintenant va dormir, et repose toi bien. Je t'ai laissé ta tisane préférée sur le bahut.Bonne nuit.Je t'aime mon coeur."
+  y "Bonne nuit..."
+  "{i}Ma mère quitte ma chambre, sans faire de bruit.{/i}"
+  "{i}Maintenant que je suis seule avec mes pensées, je devrais prendre une décision... Cela fait presque 2 ans que je souffre...{/i}"
+  "{i}A cela s'ajoute les menaces avec lesquelles je vis... Nash me torture...{/i}"
+  "{i}Je cache même à mes parents que je prends des somnifères afin de pouvoir dormir...{/i}"
+  "{i}Rompre un équilibre n'est pas chose facile...{/i}"
+
+  menu:
+    "{i}Faîtes un choix. Cette stratégie vous sera soit bénéfique, soit destructrice.{/i}"
+    "{size=+20}Avoir une conversation mâture avec Nash{/size} {vspace=20}{size=-10}{color=#4287f5}{i}(espérance de vie +10){/i}{/color}{/size}":
+      $ NashEquilibrium = True
+      stop music fadeout 1.0
+      jump CompromiseTogether
+    "{size=+20}Confronter Nash avec rage{/size} {vspace=20}{size=-10}{color=#d1492e}{i}(espérance de vie -20){/i}{/color}{/size}":
+      stop music fadeout 1.0
+      jump epilogueC
+
+  return
   

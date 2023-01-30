@@ -29,6 +29,7 @@ label splashscreen:
 # Le jeu commence ici
 label start:
     $name_character = "Vous"
+    default NashEquilibrium = False
 
     play music "audio/office ambience.mp3" volume 0.3 loop
     #Get a black screen while ambient sound is playing 
