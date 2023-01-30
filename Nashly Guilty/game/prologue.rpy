@@ -36,7 +36,7 @@ label start:
     scene black with dissolve 
     with Pause(3)
 
-    show text "{i}Prologue : L’autre n’est pas votre problème" with dissolve
+    show text "{i}Prologue : L’autre n’est pas votre problème{/i}" with dissolve
     with Pause(3)
     
 
@@ -45,9 +45,9 @@ label start:
  
     scene bg law office with dissolve
     "08:24."
-    "{i}C'est une journée calme et presque monotone au bureau."
-    "{i}Il y a quelques femmes qui attendent dans la salle d'attente."
-    "{i}On entend les piles de papier craquer au son des doigts des employés."
+    "{i}C'est une journée calme et presque monotone au bureau.{/i}"
+    "{i}Il y a quelques femmes qui attendent dans la salle d'attente.{/i}"
+    "{i}On entend les piles de papier craquer au son des doigts des employés.{/i}"
 
     play sound "audio/phone ringing.mp3" volume 0.7
     "Le téléphone sonne déjà ! C'est sûrement du travail en plus."
@@ -66,7 +66,7 @@ label start:
     client "D'accord, Mlle [name_character]. Je souhaiterai parler à Mr Lloyd Shapley. Est-ce qu'il est là ?"
     y "Oui, bien sûr. Je vais vous le passer tout de suite."
 
-    "{i}Vous déposez le combiné sur la table, histoire que le client ne puisse pas écouter vos conversations privées."
+    "{i}Vous déposez le combiné sur la table, histoire que le client ne puisse pas écouter vos conversations privées.{/i}"
 
     y "Mr Shapley ?"
     y "MR SHAPLEY !" with vpunch
@@ -74,15 +74,15 @@ label start:
     y "Pardon Monsieur Shapley, mais il y a quelqu'un à l'autre bout du fil qui vous attend."
     maitre_avocat "D'accord, d'accord. Passe le moi."
     "{i}Vous indiquez avec votre doigt le combiné du téléphone. Mr Shapley se presse de le saisir et vous suggère du mouvement de sa main que vous
-    pouvez disposez."
+    pouvez disposez.{/i}"
     "Quelle arrogance ce Shapley."
-    "{i}Vous décidez d'aller vous débarbouiller le visage, sentant la chaleur vous montez à la tête."
+    "{i}Vous décidez d'aller vous débarbouiller le visage, sentant la chaleur vous montez à la tête.{/i}"
 
     scene bg bathroom with dissolve
-    "{i}Vous ouvrez le robinet. Votre reflet dans le miroir affiche des cernes."
+    "{i}Vous ouvrez le robinet. Votre reflet dans le miroir affiche des cernes.{/i}"
     play sound "audio/running water.mp3" volume 0.7
 
-    "{i}L'eau est fraîche. Elle est revigorisante et vous fait oublier tous vos problèmes."
+    "{i}L'eau est fraîche. Elle est revigorisante et vous fait oublier tous vos problèmes.{/i}"
     $wait(5)
     y "Ces derniers jours ont été particulièrement fort en émotion."
 
@@ -102,9 +102,9 @@ label start:
     y "Oh! John! Qu'est-ce que tu fais là ?"
 
     # Ici, le narrateur parle, mais c'est la voix du personnage principal
-    "{i}Ca, c'est John Nash. Mon âme-soeur."
-    "{i}Je l'aime vraiment beaucoup, et je ne sais pas si je peux vivre sans lui."
-    "{i}On compte se marrier bientôt. J'essaye de l'aider comme je peux."
+    "{i}Ca, c'est John Nash. Mon âme-soeur.{/i}"
+    "{i}Je l'aime vraiment beaucoup, et je ne sais pas si je peux vivre sans lui.{/i}"
+    "{i}On compte se marrier bientôt. J'essaye de l'aider comme je peux.{/i}"
  
     l @ glad "Je me suis dit que ça serait cool de venir te voir au boulot. Comment ça se passe au cabinet ?" with dissolve
     y "Ca pourrait aller mieux. Mon supérieur vient juste de me crier dessus..."
@@ -135,23 +135,23 @@ label start:
     play sound "<from 0 to 2>audio/body_fall.mp3" volume 0.7
 
     scene bg law office with dissolve
-    "{i}Nash court vers le bureau où se trouve mon sac."
-    "{i}Il me pousse assez fort pour me faire trébucher derrière lui et ne m'aide même pas à redresser..."
+    "{i}Nash court vers le bureau où se trouve mon sac.{/i}"
+    "{i}Il me pousse assez fort pour me faire trébucher derrière lui et ne m'aide même pas à redresser...{/i}"
     y "Nash! Attends!" with vpunch
 
     show lover angry with moveinright
     play music "audio/office ambience.mp3" volume 0.2 loop
     l "NON! Où est ton sac ?"
 
-    "{i}Les assistantes qui travaillent avec moi semblent observer la scène..."
-    "{i}C'est très honteux pour moi, et j'ai de la chance que Mr Shapley se soit enfermé dans son bureau après avoir fini l'appel."
+    "{i}Les assistantes qui travaillent avec moi semblent observer la scène...{/i}"
+    "{i}C'est très honteux pour moi, et j'ai de la chance que Mr Shapley se soit enfermé dans son bureau après avoir fini l'appel.{/i}"
     l @ glad "Oh! Le voici!" with dissolve
     y "Nash, mon amour s'il te plaît... Je n'ai pas cet argent!"
     l "Je m'enfous. Tu me le donneras tout de suite!"
     y "Nash..."
     hide lover with dissolve
-    "{i}Il commence à fouiller violamment mon sac."
-    "{i}Lorsqu'il retrouve mon porte-monnaie, il commence à compter l'argent qu'il y avait à l'intérieur."
+    "{i}Il commence à fouiller violamment mon sac.{/i}"
+    "{i}Lorsqu'il retrouve mon porte-monnaie, il commence à compter l'argent qu'il y avait à l'intérieur.{/i}"
     show lover suspicious with moveinright
     l "Alors, combien tu as..." with dissolve
     l "1000..."
@@ -171,19 +171,19 @@ label start:
     show lover angry with vpunch
 
     play sound "audio/face punch.mp3" volume 0.7
-    "{i}Nash m'a giflé devant tout le monde."
+    "{i}Nash m'a giflé devant tout le monde.{/i}"
     y "... Pourquoi..."
     l @ angry "Je t'ai dit que j'avais besoin d'argent. C'est une urgence."
     y "... Ce n'est pas une raison pour me frapper devant tout le monde..."
-    "{i}Je pleurais à chaudes larmes, et c'était plus que honteux de me faire gifflée dans mon bureau."
+    "{i}Je pleurais à chaudes larmes, et c'était plus que honteux de me faire gifflée dans mon bureau.{/i}"
     y "D'accord.. Si tu veux cet argent.. Allons-y..."
-    "{i}Les assistantes me regardaient avec un regard plein de pitié. Incapables de me venir en aide tant mon amoureux paraissait agressif."
+    "{i}Les assistantes me regardaient avec un regard plein de pitié. Incapables de me venir en aide tant mon amoureux paraissait agressif.{/i}"
     show lover glad with dissolve
     l "Super, allons-y. Pardon pour la giffle mon amour!" 
 
-    "{i}Il m'a forcé à quitter mon bureau pour me diriger vers la banque la plus proche."
-    "{i}J'étais plus blessée qu'autre chose... Mais je m'étais habituée à sa violence..."
-    "{i}Même si l'on s'était pas encore mariés, tolérer ce genre de comportement était devenu une seconde nature pour moi."
+    "{i}Il m'a forcé à quitter mon bureau pour me diriger vers la banque la plus proche.{/i}"
+    "{i}J'étais plus blessée qu'autre chose... Mais je m'étais habituée à sa violence...{/i}"
+    "{i}Même si l'on s'était pas encore mariés, tolérer ce genre de comportement était devenu une seconde nature pour moi.{/i}"
     stop music fadeout 0.5
     scene black with dissolve
     pause 1.5
@@ -198,9 +198,9 @@ label start:
     hide lover
 
     scene bg atm with dissolve
-    "{i}Je sors alors ma carte de crédit et l'insère dans le distributeur pour sortir la somme d'argent demandée."
+    "{i}Je sors alors ma carte de crédit et l'insère dans le distributeur pour sortir la somme d'argent demandée.{/i}"
     play sound "audio/atm vfx.mp3" volume 0.7
-    "{i}Le bruit des billets semble réconforter Nash dans sa violence..."
+    "{i}Le bruit des billets semble réconforter Nash dans sa violence...{/i}"
     $ wait(30)
     scene black with dissolve
     stop music fadeout 0.5

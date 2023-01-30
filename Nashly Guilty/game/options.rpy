@@ -157,7 +157,7 @@ define config.save_directory = "NashlyGuilty-1671919569"
 ##
 ## L'icone affichée dans la barre des tâches ou sur le dock.
 
-define config.window_icon = "gui/nashly_guilty_icon.png"
+define config.window_icon = "gui/ai_icon.png"
 
 
 ## Configuration de la compilation #############################################

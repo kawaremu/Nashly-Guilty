@@ -6,14 +6,10 @@ define a = Character('Assistante', color="#213f5b")
 define l = Character('John Nash', color="#bbc46b",image="lover")
 define s = Character('Sabrina Duopoli', color="#308285",image="friend")
 define m = Character('Maman', color="#9773ac")
-
+define j = Character('Juge Suprême' ,color="#05460a")
+define na = Character("", kind=nvl, what_italic=True, what_color="#6c6bc4")
 # Déclarez sous cette ligne les images, avec l'instruction 'image'
 
-
-
-
-
-# ex: image eileen heureuse = "eileen_heureuse.png"
 
 # ========================  NASH ==========================
 image lover happy:
@@ -93,6 +89,7 @@ image bg outside = im.Scale("backgrounds/bg outside.jpg",1920,1080)
 image bg atm = im.Scale("backgrounds/bg atm.png",1920,1080)
 image bg house = im.Scale("backgrounds/bg house.jpg",1920,1080)
 image bg character room = im.Scale("backgrounds/bg character room.jpg",1920,1080)
+image bg supreme court = im.Scale("backgrounds/bg supreme court.jpg",1920,1080)
 
 image bg_beach:
       zoom 2

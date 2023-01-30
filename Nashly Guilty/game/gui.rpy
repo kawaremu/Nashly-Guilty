@@ -12,7 +12,6 @@ init python:
     gui.init(1920, 1080)
 
 
-
 ################################################################################
 ## Variables de Configuration du GUI
 ################################################################################
@@ -50,7 +49,7 @@ define gui.insensitive_color = u'#8888887f'
 ## Elles ne sont pas utilisées directement, mais quand les fichiers d’images
 ## sont régénérés.
 define gui.muted_color = u'#00513d'
-define gui.hover_muted_color = u'#007a5b'
+define gui.hover_muted_color = u'#002e22'
 
 ## Les couleurs utilisées pour les dialogues et les menus de choix.
 define gui.text_color = u'#ffffff'
@@ -75,10 +74,10 @@ define gui.text_size = 33
 define gui.name_text_size = 45
 
 ## La taille du texte dans l’interface de jeu.
-define gui.interface_text_size = 35
+define gui.interface_text_size = 30
 
 ## La taille des libellés dans l’interface de jeu.
-define gui.label_text_size = 60
+define gui.label_text_size = 45
 
 ## La taille du texte dans la zone de notification.
 define gui.notify_text_size = 24
@@ -282,7 +281,7 @@ define gui.pref_button_spacing = 0
 define gui.page_spacing = 0
 
 ## L’espacement entre les emplacements de sauvegarde.
-define gui.slot_spacing = 15
+define gui.slot_spacing = 20
 
 ## La position du texte du menu principal.
 define gui.main_menu_text_xalign = 1.0

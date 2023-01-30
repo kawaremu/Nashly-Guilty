@@ -7,7 +7,7 @@ label Chapter1Start:
 
   scene black with dissolve
 
-  "{i}C'est maintenant que les choses commencent."
+  "{i}C'est maintenant que les choses commencent.{/i}"
 
   pause 3.0
  
@@ -44,10 +44,13 @@ label Chapter1Start:
   y "Comment ça ?"
   show friend worried with dissolve
   s "Tu as oublié une chose importante, [name_character]... Tu as des problèmes de santé."
-  "{i}Sabrina avait raison... J'étais de constitution faible, et je n'avais en aucun cas intérêt à jouer avec ma vie dans l'unique but de recevoir de l'affection d'un être humain..."
-  "{i}Mon médecin me l'avait dit la dernière fois. Que si la dépression s'en prenait à moi, je réduirai mon espérance de vie..."
-  "{i}Nash me rend si triste ces deux dernières années, il ne fait que prendre mon argent et m'humilier..."
-  "{i}Les larmes me montent juste à la pensée de la semaine dernière. Il m'a acheté une glace en guise de remerciement... Après une giffle publique..."
+  "{i}Sabrina avait raison... J'étais de constitution faible, et je n'avais en aucun cas intérêt à jouer avec ma vie dans l'unique but de 
+  recevoir de l'affection d'un être humain...{/i}"
+  "{i}Mon médecin me l'avait dit la dernière fois. Que si la dépression s'en prenait à moi, je réduirai mon espérance de vie...{/i}"
+  "{i}Nash me rend si triste ces deux dernières années, il ne fait que prendre mon argent et m'humilier...{/i}"
+  "{i}Les larmes me montent juste à la pensée de la semaine dernière. 
+  Il m'a acheté une glace en guise de remerciement... 
+  Après une giffle publique...{/i}"
   show friend sad with dissolve
   s "[name_character]...{p}Tu ne mérites pas ce traitement...{p=1.0}Laisse moi t'aider..."
   y "... Mais comment ?"
@@ -63,14 +66,14 @@ label Chapter1Start:
   s @ disappointed "C'est ton opinion, et quelle que soit ta décision, je serai ton bras droit." with dissolve
   s @ smile "Tu peux compter sur mon aide en tout cas. Je suis policière, et je promets de t'assister dans toutes les procédures." with dissolve
 
-  "{i}Sabrina me propose de l'aide. Je pense que ça sera un tournant dans ma vie."
+  "{i}Sabrina me propose de l'aide. Je pense que ça sera un tournant dans ma vie.{/i}"
 
   show friend clueless with dissolve
   menu strategieR_C:
-    "{i}Faîtes un choix. Cette stratégie vous sera soit bénéfique, soit destructrice."
-    "{size=+20}Dénoncer à la police{/size}  {vspace=20}{size=-10}{i}{i}{color=#4287f5}(espérance de vie +10){/color}{/size}":
+    "{i}Faîtes un choix. Cette stratégie vous sera soit bénéfique, soit destructrice.{/i}"
+    "{size=+20}Dénoncer à la police{/size}  {vspace=20}{size=-10}{color=#4287f5}{i}(espérance de vie +10){/i}{/color}{/size}":
       jump ReportPolice
-    "{size=+20}Essayer de discuter avec Nash{/size} {vspace=20}{size=-10}{i}{color=#d1492e}(espérance de vie +5){/color}{/size}":
+    "{size=+20}Essayer de discuter avec Nash{/size} {vspace=20}{size=-10}{color=#d1492e}{i}(espérance de vie +5){/i}{/color}{/size}":
       jump ConversationLover
   return
 
@@ -81,9 +84,9 @@ label ReportPolice:
   s @ happy "Haha, tu dois d'abord finir ton café et tes petits gâteaux, et ensuite, tu rentreras à la maison." with dissolve
   y "Qu'est-ce que je ferais sans toi Sabrina !"
   s @ happy "Beaucoup de choses quand tu es courageuse! Prends ta décision ce soir encore une fois et confirme moi par téléphone." with dissolve
-  "{i}Sabrina et moi prenons nos gâteaux dans le plus grand des calmes."
-  "{i}C'était le calme avant la tempête; une tempête qui allait semer le chaos dans l'équilibre de la vie que je menais."
-  "{i}Un équilibre auprès de Nash..."
+  "{i}Sabrina et moi prenons nos gâteaux dans le plus grand des calmes.{/i}"
+  "{i}C'était le calme avant la tempête; une tempête qui allait semer le chaos dans l'équilibre de la vie que je menais.{/i}"
+  "{i}Un équilibre auprès de Nash...{/i}"
   stop music fadeout 0.5
 
 
@@ -92,13 +95,13 @@ label ReportPolice:
   show text "Le déjeuner continue entre les deux amies..." with Pause(3)
   scene black with dissolve
 
-  "{i}Vous rentrez à la maison, la tête pleine de stratégies pour un meilleur avenir et une plus longue vie pleine de prospérité."
+  "{i}Vous rentrez à la maison, la tête pleine de stratégies pour un meilleur avenir et une plus longue vie pleine de prospérité.{/i}"
 
 
   scene bg house with dissolve
   play music "audio/house_bgm.mp3" volume 0.3 loop
   y "Maman ? Papa ?"
-  "{i}Aucune réponse..."
+  "{i}Aucune réponse...{/i}"
   y "Ce n'est pas grave. Je vais monter et rejoindre ma chambre. Je pourrai mieux réflechir une fois là-bas."
 
   scene bg character room with dissolve
@@ -116,19 +119,19 @@ label ReportPolice:
   y "Merci maman... "
   m "Maintenant va dormir, et repose toi bien. Je t'ai laissé ta tisane préférée sur le bahut. Bonne nuit."
   y "Bonne nuit..."
-  "{i}Ma mère quitte ma chambre, sans faire de bruit."
-  "{i}Maintenant que je suis seule avec mes pensées, je devrais prendre une décision... Cela fait presque 2 ans que je souffre..."
-  "{i}A cela s'ajoute les menaces avec lesquelles je vis... Nash me torture..."
-  "{i}Je cache même à mes parents que je prends des somnifères afin de pouvoir dormir..."
-  "{i}Rompre un équilibre n'est pas chose facile..."
+  "{i}Ma mère quitte ma chambre, sans faire de bruit.{/i}"
+  "{i}Maintenant que je suis seule avec mes pensées, je devrais prendre une décision... Cela fait presque 2 ans que je souffre...{/i}"
+  "{i}A cela s'ajoute les menaces avec lesquelles je vis... Nash me torture...{/i}"
+  "{i}Je cache même à mes parents que je prends des somnifères afin de pouvoir dormir...{/i}"
+  "{i}Rompre un équilibre n'est pas chose facile...{/i}"
 
   menu:
-    "{i}Faîtes un choix. Cette stratégie vous sera soit bénéfique, soit destructrice."
-    "{size=+20}Dénoncer à la police pour de bon.{/size}  {vspace=20}{size=-10}{i}{i}{color=#4287f5}(espérance de vie +10){/color}{/size}":
-      stop music fadeout 0.5
+    "{i}Faîtes un choix. Cette stratégie vous sera soit bénéfique, soit destructrice.{/i}"
+    "{size=+20}Dénoncer à la police pour de bon.{/size}  {vspace=20}{size=-10}{color=#4287f5}{i}(espérance de vie +10){/i}{/color}{/size}":
+      stop music fadeout 1.0
       jump ReportToJustice
-    "{size=+20}Ne pas dénoncer à la police.{/size} {vspace=20}{size=-10}{i}{color=#d1492e}(espérance de vie -20){/color}{/size}":
-      stop music fadeout 0.5
+    "{size=+20}Ne pas dénoncer à la police.{/size} {vspace=20}{size=-10}{color=#d1492e}{i}(espérance de vie -20){/i}{/color}{/size}":
+      stop music fadeout 1.0
       jump EternalSuffering
 
   return

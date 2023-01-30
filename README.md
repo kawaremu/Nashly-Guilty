@@ -2,7 +2,7 @@
 ## 
 ## Synopsis
 
-Vous êtes amoureuse de l’homme parfait à vos yeux. Vous le voyez souvent. Vous lui offrez tout ce qu’il désire car il vit seul et ses deux parents sont décédés. Vous lui faites une confiance aveugle et vous êtes désespérée car vous approchez la quarantaine et vous n’êtes toujours pas mariée.
+Vous êtes amoureuse de l’homme parfait à vos yeux. Vous le voyez souvent. Vous lui offrez tout ce qu’il désire car il vit seul et ses deux parents sont décédés. Vous lui faites une confiance aveugle et vous êtes désespérée car vous approchez la trentaine et vous n’êtes toujours pas mariée.
 
 ## Comment jouer ?
 Lorsque vous ouvrez 
@@ -18,10 +18,17 @@ Lorsque vous ouvrez
 | Besoin                                                                   	          | Importance    	| Completé 	 |
 |-------------------------------------------------------------------------------	  |---------------	|----------	 |
 | Finish prologue                                         	                          | Essential     	| ✅        	|
-| Finir chapitre 1                                                	                  | Essential     	| ❌        	|
-| Ajouter des choix au chapitre 1  	                                                  | Essential     	| ❌        	|
-|Arranger le menu principal  	                                                      | Non-Essential   | ❌        	|
+| Finir chapitre 1                                                	                  | Essential     	| ✅         	|
+| Ajouter des choix au chapitre 1  	                                                  | Essential     	| ✅         	|
+|Arranger le menu principal  	                                                      | Non-Essential   | ✅         	|
 |Changer le layout de la boîte de dialogue             	                              | Essential       | ❌        	|
-|Trouver une autre police d'écriture                   	                              | Non-Essential   | ❌        	|
-|Changer les sprites de Nash              	                                          | Essential       | ❌        	|
+|Trouver une autre police d'écriture                   	                              | Non-Essential   | ✅         	|
+|Changer les sprites de Nash              	                                          | Essential       | ✅         	|
 |Ajouter "side" image pour chaque sprite             	                             | Essential       | ❌        	|
+
+
+### Copyrights et ressources originales 
+1. Main Menu Theme : Approach • Jameson Nathan Jones
+2. House Theme : Felt •  Yehezkel Raz
+3. Report to Justice Theme : Yehezkel Raz • Prologue 
+4. Court Theme : Court Begins (Phoenix Wright: Ace Attorney) 2020 version - The Consouls
