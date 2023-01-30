@@ -2,15 +2,14 @@
 ## 
 ## Synopsis
 
+<img align="left" width="300" height="300" src="Nashly Guilty\game\gui\ai_icon.png">
 Vous êtes amoureuse de l’homme parfait à vos yeux. Vous le voyez souvent. Vous lui offrez tout ce qu’il désire car il vit seul et ses deux parents sont décédés. Vous lui faites une confiance aveugle et vous êtes désespérée car vous approchez la trentaine et vous n’êtes toujours pas mariée.
 
 ## Comment jouer ?
-Lorsque vous ouvrez 
-
 1. **Les personnages** 
     1. Personnage principal (vous, une avocate)
     2. Votre meilleure amie (policère) qui vous fait prendre des décisions
-    3. Vos parents qui doutent de vous donc vous avez du mal à dénoncer votre persecuteur
+    3. Vos parents qui ne pas doutent de vous
     4. Votre amoureux (ennemi, joueur 2)
 
 ### ⚙ Besoins du jeu

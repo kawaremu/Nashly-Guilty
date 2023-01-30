@@ -63,3 +63,5 @@ errors.txt
 traceback.txt
 files.txt
 .vscode/
+
+*.bak
