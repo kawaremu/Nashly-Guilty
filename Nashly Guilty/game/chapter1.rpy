@@ -12,8 +12,9 @@ label Chapter1Start:
   pause 3.0
  
   scene bg coffee with dissolve
-  show friend smiling with moveinleft 
-  s "Hello copine!"
+  show friend smiling with moveinleft
+
+  s "Hello copine!" 
   y "Oh! Coucou Sabrina! Je viens juste d'arriver. Désolée je suis en retard à notre rendez-vous!"
   s @ happy "Mais non, ce n'est rien. Assis-toi!" with dissolve
   y "Alors, comment ça va? Tu racontes quoi de beau ?"
@@ -22,7 +23,7 @@ label Chapter1Start:
   s  "Ce n'est pas la peine de le cacher [name_character]! Je sais ce qui s'est passé la semaine dernière."
   show friend clueless with dissolve
   y "Hein ? De quoi tu parles ?"
-  s @ clueless "[name_character]... Je suis policière." with dissolve
+  s @ clueless "[name_character]... Je suis policière."
   y "Et alors ?" with vpunch
   s @ scolding "Tu es avocate! Et je suis policière." with dissolve
   y  "Je ne le suis pas vraiment..."
@@ -40,10 +41,10 @@ label Chapter1Start:
   s @ mad "NON!" with hpunch
   s @ mad "Je n'accepte pas ça." with dissolve
   y "Mais Sabrina..."
-  s "Non. Je pense qu'on devrait trouver une solution."
+  s "Non. Je pense qu'on devrait trouver une solution." with dissolve
   y "Comment ça ?"
   show friend worried with dissolve
-  s "Tu as oublié une chose importante, [name_character]... Tu as des problèmes de santé."
+  s "Tu as oublié une chose importante, [name_character]... Tu as des problèmes de santé." with dissolve
   "{i}Sabrina avait raison... J'étais de constitution faible, et je n'avais en aucun cas intérêt à jouer avec ma vie dans l'unique but de 
   recevoir de l'affection d'un être humain...{/i}"
   "{i}Mon médecin me l'avait dit la dernière fois. Que si la dépression s'en prenait à moi, je réduirai mon espérance de vie...{/i}"
@@ -52,9 +53,9 @@ label Chapter1Start:
   Il m'a acheté une glace en guise de remerciement... 
   Après une giffle publique...{/i}"
   show friend sad with dissolve
-  s "[name_character]...{p}Tu ne mérites pas ce traitement...{p=1.0}Laisse moi t'aider..."
+  s "[name_character]...{p}Tu ne mérites pas ce traitement...{p=1.0}Laisse moi t'aider..." with dissolve
   y "... Mais comment ?"
-  s @ smile "Je suis contente que tu ne te sois pas laissée abattre!" with dissolve
+  s @ smiling "Je suis contente que tu ne te sois pas laissée abattre!" with dissolve
   y "Je ne sais pas exactement quoi faire, mais une chose est sûre; cette relation me fait souffrir."
   s @ disappointed "Essayons d'être des joueurs rationnels... Nash est comme ton adversaire." with dissolve
   menu:
@@ -64,9 +65,9 @@ label Chapter1Start:
       pass
   
   s @ disappointed "C'est ton opinion, et quelle que soit ta décision, je serai ton bras droit." with dissolve
-  s @ smile "Tu peux compter sur mon aide en tout cas. Je suis policière, et je promets de t'assister dans toutes les procédures." with dissolve
+  s @ smiling "Tu peux compter sur mon aide en tout cas. Je suis policière, et je promets de t'assister dans toutes les procédures." with dissolve
 
-  "{i}Sabrina me propose de l'aide. Je pense que ça sera un tournant dans ma vie.{/i}"
+  "{i}Sabrina me propose de l'aide. Je pense que ça sera un tournant dans ma vie.{/i}" with dissolve
 
   show friend clueless with dissolve
   menu strategieR_C:
@@ -78,7 +79,7 @@ label Chapter1Start:
   return
 
 label ReportPolice:
-  show friend smile with dissolve
+  show friend smiling with dissolve
   s  "Très bon choix et sage décision."
   y "Merci... Qu'est-ce que je dois faire maintenant ?"
   s @ happy "Haha, tu dois d'abord finir ton café et tes petits gâteaux, et ensuite, tu rentreras à la maison." with dissolve

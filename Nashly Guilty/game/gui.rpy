@@ -27,7 +27,7 @@ define gui.accent_color = u'#af5622'
 
 ## La couleur utilisée pour le texte d’un bouton quand il n’a jamais été
 ## sélectionné ou survolé.
-define gui.idle_color = u'#752323'
+define gui.idle_color = u'#c09191'
 
 ## La petite couleur est utilisé pour les textes courts qui nécessitent d’être
 ## assombris ou éclairés pour obtenir le même effet.
@@ -91,7 +91,7 @@ define gui.title_text_size = 70
 ## Les images utilisées pour le menu principal et le menu du jeu.
 # define gui.main_menu_background = "gui/main_menu.png"
 define gui.game_menu_background = "gui/game_menu.png"
-define gui.main_menu_background = Movie(play="gui/main_menu.ogv",loop=True,size=(1920,1080))
+define gui.main_menu_background = Movie(play="gui/6604090.ogv",loop=True,size=(1920,1080))
 
 ## Dialogue ####################################################################
 ##

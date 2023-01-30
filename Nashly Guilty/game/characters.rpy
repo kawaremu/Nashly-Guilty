@@ -6,7 +6,7 @@ define a = Character('Assistante', color="#213f5b")
 define l = Character('John Nash', color="#bbc46b",image="lover")
 define s = Character('Sabrina Duopoli', color="#308285",image="friend")
 define m = Character('Maman', color="#9773ac")
-define j = Character('Juge Suprême' ,color="#05460a")
+define j = Character('Juge Suprême' ,color="#612525",image="judge")
 define na = Character("", kind=nvl, what_italic=True, what_color="#6c6bc4")
 # Déclarez sous cette ligne les images, avec l'instruction 'image'
 
@@ -37,8 +37,6 @@ image lover suspicious:
 
 
 # ==================  BEST FRIEND ===================
-
-
 image friend happy:
       subpixel True pos (0.5, 1.21) zoom 0.98
       "characters/friend happy.png"
@@ -61,6 +59,9 @@ image friend mad slightly:
       subpixel True pos (0.5, 1.21) zoom 0.98
       "characters/friend mad slightly.png"
 
+image friend mad:
+      subpixel True pos (0.5, 1.21) zoom 0.98
+      "characters/friend mad slightly.png"
 
 image friend scolding:
       subpixel True pos (0.5, 1.21) zoom 0.98
@@ -82,6 +83,30 @@ image friend disappointed:
       subpixel True pos (0.5, 1.21) zoom 0.98
       "characters/friend disappointed.png"
 
+# ========================  JUDGE ==========================
+image judge neutral:
+      subpixel True xzoom 1.0 pos (0.5, 1.01) zoom 1.38 
+      "characters/judge_neutral.png"
+      
+image judge angry:
+      subpixel True xzoom 1.0 pos (0.5, 1.01) zoom 1.38
+      "characters/judge_angry.png"
+
+image judge annoyed:
+      subpixel True xzoom 1.0 pos (0.5, 1.01) zoom 1.38
+      "characters/judge_annoyed.png"
+
+image judge disgusted:
+      subpixel True xzoom 1.0 pos (0.5, 1.01) zoom 1.38
+      "characters/judge_disgust.png"
+
+image judge happy:
+      subpixel True xzoom 1.0 pos (0.5, 1.01) zoom 1.38
+      "characters/judge_happy.png"
+
+image judge sight:
+      subpixel True xzoom 1.0 pos (0.5, 1.01) zoom 1.38
+      "characters/judge_sight.png"
 
 
 # ================================  BACKGROUNDS =======================
