@@ -27,7 +27,7 @@ define gui.accent_color = u'#af5622'
 
 ## La couleur utilisée pour le texte d’un bouton quand il n’a jamais été
 ## sélectionné ou survolé.
-define gui.idle_color = u'#c09191'
+define gui.idle_color = u'#dfb4b4'
 
 ## La petite couleur est utilisé pour les textes courts qui nécessitent d’être
 ## assombris ou éclairés pour obtenir le même effet.

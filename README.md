@@ -22,7 +22,7 @@ Vous êtes amoureuse de l’homme parfait à vos yeux. Vous le voyez souvent. Vo
 |Changer les sprites de Nash              	                                          | Essential       | ✅         |
 |Finir épilogue 1er fin                         	                                  | Essential       | ✅        	|
 |Finir épilogue 2e fin                                 	                              | Essential       | ✅        	|
-|Finir épilogue 3e fin                               	                              | Essential       | ❌        	|
+|Finir épilogue 3e fin                               	                              | Essential       | ✅        	|
 |Finir épilogue 4e fin                               	                              | Essential       | ❌        	|
 |Ajouter "side" image pour chaque sprite             	                              | Essential       | ❌         |
 |Changer le layout de la boîte de dialogue             	                              | Essential       | ❌        	|
