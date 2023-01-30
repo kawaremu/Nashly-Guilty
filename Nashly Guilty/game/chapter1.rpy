@@ -99,10 +99,37 @@ label ReportPolice:
   play music "audio/house_bgm.mp3" volume 0.3 loop
   y "Maman ? Papa ?"
   "{i}Aucune réponse..."
-  y "Ce n'est pas grave. Je vais monter et rejoindre ma chambre. J"
+  y "Ce n'est pas grave. Je vais monter et rejoindre ma chambre. Je pourrai mieux réflechir une fois là-bas."
 
   scene bg character room with dissolve
+  y "Quelles semaines fatiguantes... Je suis crevée."
 
+  play sound "audio/door open.mp3" volume 0.7
+  "La porte de ma chambre s'ouvre et c'est une figure douce qui vient m'embrasser chaleureusement."
+  $wait(5)
+  m "[name_character]! Je te cherchais!"
+  y "Maman! Tu m'as manquée!"
+  "Je saute dans ses bras." with vpunch
+  m "Toi aussi ma belle... J'étais dans la cuisine. Comment te sens-tu ? "
+  y "Je suis fatiguée... très fatiguée, même."
+  m "Ta santé passe avant tout. Je t'aime mon coeur. Si tu as besoin d'aide, sache que nous serons toujours là pour toi, ton père et moi."
+  y "Merci maman... "
+  m "Maintenant va dormir, et repose toi bien. Je t'ai laissé ta tisane préférée sur le bahut. Bonne nuit."
+  y "Bonne nuit..."
+  "{i}Ma mère quitte ma chambre, sans faire de bruit."
+  "{i}Maintenant que je suis seule avec mes pensées, je devrais prendre une décision... Cela fait presque 2 ans que je souffre..."
+  "{i}A cela s'ajoute les menaces avec lesquelles je vis... Nash me torture..."
+  "{i}Je cache même à mes parents que je prends des somnifères afin de pouvoir dormir..."
+  "{i}Rompre un équilibre n'est pas chose facile..."
+
+  menu:
+    "{i}Faîtes un choix. Cette stratégie vous sera soit bénéfique, soit destructrice."
+    "{size=+20}Dénoncer à la police pour de bon.{/size}  {vspace=20}{size=-10}{i}{i}{color=#4287f5}(espérance de vie +10){/color}{/size}":
+      stop music fadeout 0.5
+      jump ReportToJustice
+    "{size=+20}Ne pas dénoncer à la police.{/size} {vspace=20}{size=-10}{i}{color=#d1492e}(espérance de vie -20){/color}{/size}":
+      stop music fadeout 0.5
+      jump EternalSuffering
 
   return
 

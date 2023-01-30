@@ -5,7 +5,7 @@ define client = Character('Inconnu', color="#213f5b")
 define a = Character('Assistante', color="#213f5b")
 define l = Character('John Nash', color="#bbc46b",image="lover")
 define s = Character('Sabrina Duopoli', color="#308285",image="friend")
-
+define m = Character('Maman', color="#9773ac")
 
 # Déclarez sous cette ligne les images, avec l'instruction 'image'
 
