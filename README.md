@@ -1,5 +1,5 @@
 # ⚖️ Nashement Coupable  
-Un jeu de type visual novel pour illustrer des concepts de la théorie des jeux.
+**Nashement Coupable** est un jeu de type visual novel pour illustrer des concepts de la théorie des jeux.
 ## 📚 Synopsis
 <img align="left" width="300" height="300" src="https://cdn.midjourney.com/e7a3bbf1-8ac4-4245-956f-9dd5a02f0e51/grid_0.png">
 Vous êtes amoureuse de l’homme parfait à vos yeux. Vous le voyez souvent. Vous lui offrez tout ce qu’il désire car il vit seul et ses deux parents sont décédés. Vous lui faites une confiance aveugle et vous êtes désespérée car vous approchez la trentaine et vous n’êtes toujours pas mariée.
@@ -36,3 +36,12 @@ Vous êtes amoureuse de l’homme parfait à vos yeux. Vous le voyez souvent. Vo
 5. Court Theme : Court Begins • from Phoenix Wright: Ace Attorney
 6. Compromise Theme : Restlessness • Anna Yarbrough
 7. Falatity Argument Theme : Isolation 
+
+
+## 🎮 Venez jouer !
+
+<a href="https://kawaremu.itch.io/nashement-couplable"><img width="200" src="https://raw.githubusercontent.com/freeCodeCamp/LearnToCodeRPG/df44a3b66015021f939ef210af039d0ade1ca33a/badge-bw.png"></a>
+
+### License
+
+Copyright © 2021 freeCodeCamp.org, All rights reserved.
